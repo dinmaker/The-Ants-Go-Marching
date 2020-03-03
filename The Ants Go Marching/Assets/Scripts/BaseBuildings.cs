@@ -21,9 +21,61 @@ public class BaseBuildings : MonoBehaviour
         controller = controllerObject.GetComponent<GameController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (farms > 5)
+        {
+            farms = 5;
+        }
+        if (nursery > 5)
+        {
+            nursery = 5;
+        }
+        if (barracks > 5)
+        {
+            barracks = 5;
+        }
+        if (residential > 5)
+        {
+            residential = 5;
+        }
+        if (foodStore > 5)
+        {
+            foodStore = 5;
+        }
+        if (waterStore > 5)
+        {
+            waterStore = 5;
+        }
+    }
 
+    public void AddFarm()
+    {
+        farms += 1;
+    }
+
+    public void AddNursery()
+    {
+        nursery += 1;
+    }
+
+    public void AddResidential()
+    {
+        residential += 1;
+    }
+
+    public void AddBarracks()
+    {
+        barracks += 1;
+    }
+
+    public void AddFoodStore()
+    {
+        foodStore += 1;
+    }
+
+    public void AddWaterStore()
+    {
+        waterStore += 1;
     }
 }
