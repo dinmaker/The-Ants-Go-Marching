@@ -16,6 +16,9 @@ public class GameController : MonoBehaviour
     public int consumption;
     public int spawning;
 
+    public FoodNode[] foodNodes;
+    public WaterNode[] waterNodes;
+
     public GameObject playerHive;
     public BaseBuildings playerbuildings;
 
@@ -196,6 +199,16 @@ public class GameController : MonoBehaviour
             }
             food -= consumption;
             water -= consumption;
+
+            for (int i = 0; i< foodNodes.Length; i++)
+            {
+                foodNodes[i].ProduceFood();
+            }
+
+            for (int i = 0; i < waterNodes.Length; i++)
+            {
+                waterNodes[i].ProduceWater();
+            }
         }
     }
 }
