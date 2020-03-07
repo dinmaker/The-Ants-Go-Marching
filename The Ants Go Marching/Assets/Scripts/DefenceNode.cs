@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class DefenceNode : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject controllerObject;
+    public GameController controller;
+
+    public int workerAnts;
+    public int soldierAnts;
+    
+    public int defence;
+
     void Start()
     {
-        
+        controllerObject = GameObject.Find("GameController");
+        controller = controllerObject.GetComponent<GameController>();
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        defence = workerAnts + (soldierAnts * 4);
     }
+    
 }

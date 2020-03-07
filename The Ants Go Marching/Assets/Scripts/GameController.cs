@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public bool spawnAntType;
-    public int workerAnts;
+    public int workers;
     public int maxWorkers;
-    public int soldierAnts;
+    public int soldiers;
     public int maxSoldiers;
     public int food;
     public int maxFood;
@@ -18,50 +18,55 @@ public class GameController : MonoBehaviour
 
     public FoodNode[] foodNodes;
     public WaterNode[] waterNodes;
+    public DefenceNode[] defenceNodes;
+
 
     public GameObject playerHive;
-    public BaseBuildings playerbuildings;
+    public PlayerHive playerbuildings;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine (Cycle());
         playerHive = GameObject.Find("PlayerHive");
-        playerbuildings = playerHive.GetComponent<BaseBuildings>();
+        playerbuildings = playerHive.GetComponent<PlayerHive>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (workerAnts >= maxWorkers)
+        if (playerbuildings.workers >= maxWorkers)
         {
-            workerAnts = maxWorkers;
+            playerbuildings.workers = maxWorkers;
         }
-        if (soldierAnts >= maxSoldiers)
+        if (playerbuildings.soldiers >= maxSoldiers)
         {
-            soldierAnts = maxSoldiers;
+            playerbuildings.soldiers = maxSoldiers;
         }
+        
+        consumption = workers + soldiers;
 
-        consumption = workerAnts + soldierAnts;
+        
+
         switch (playerbuildings.farms)
         {
             case 5:
-                consumption = (workerAnts + soldierAnts) - 100;
+                consumption -= 100;
                 break;
             case 4:
-                consumption = (workerAnts + soldierAnts) - 80;
+                consumption -= 80;
                 break;
             case 3:
-                consumption = (workerAnts + soldierAnts) - 60;
+                consumption -= 60;
                 break;
             case 2:
-                consumption = (workerAnts + soldierAnts) - 40;
+                consumption -= 40;
                 break;
             case 1:
-                consumption = (workerAnts + soldierAnts) - 20;
+                consumption -= 20;
                 break;
             default:
-                consumption = workerAnts + soldierAnts;
+                consumption -= 0;
                 break;
         }
 
@@ -189,16 +194,39 @@ public class GameController : MonoBehaviour
         {
             yield return new WaitForSeconds(10.0f);
             Debug.Log("Cycle Start");
+            
+            food -= consumption;
+            water -= consumption;
+
             if (spawnAntType == false)
             {
-                workerAnts += spawning;
+                playerbuildings.workers += spawning;
             }
             else if (spawnAntType == true)
             {
-                soldierAnts += spawning;
+                playerbuildings.soldiers += spawning;
             }
-            food -= consumption;
-            water -= consumption;
+
+            for (int i = 0; i < foodNodes.Length; i++)
+            {
+                workers += foodNodes[i].workerAnts;
+                soldiers += foodNodes[i].soldierAnts;
+            }
+
+            for (int i = 0; i < waterNodes.Length; i++)
+            {
+                workers += waterNodes[i].workerAnts;
+                soldiers += waterNodes[i].workerAnts;
+            }
+
+            for (int i = 0; i < defenceNodes.Length; i++)
+            {
+                workers += defenceNodes[i].workerAnts;
+                soldiers += defenceNodes[i].soldierAnts;
+            }
+
+            workers += playerbuildings.workers;
+            soldiers += playerbuildings.soldiers;
 
             for (int i = 0; i< foodNodes.Length; i++)
             {
