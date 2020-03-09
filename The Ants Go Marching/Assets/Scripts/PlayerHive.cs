@@ -108,42 +108,37 @@ public class PlayerHive : MonoBehaviour
         switch (nursery)
         {
             case 4:
-                if (controller.food >= 100 && controller.water >= 50)
+                if (workers >= 100)
                 {
-                    controller.food -= 100;
-                    controller.water -= 50;
+                    workers -= 100;
                     nursery += 1;
                 }
                 break;
             case 3:
-                if (controller.food >= 80 && controller.water >= 40)
+                if (workers >= 80)
                 {
-                    controller.food -= 80;
-                    controller.water -= 40;
+                    workers -= 80;
                     nursery += 1;
                 }
                 break;
             case 2:
-                if (controller.food >= 60 && controller.water >= 30)
+                if (workers >= 60)
                 {
-                    controller.food -= 60;
-                    controller.water -= 30;
+                    workers -= 60;
                     nursery += 1;
                 }
                 break;
             case 1:
-                if (controller.food >= 40 && controller.water >= 20)
+                if (workers >= 40)
                 {
-                    controller.food -= 40;
-                    controller.water -= 20;
+                    workers -= 40;
                     nursery += 1;
                 }
                 break;
             default:
-                if (controller.food >= 20 && controller.water >= 10)
+                if (workers >=20)
                 {
-                    controller.food -= 20;
-                    controller.water -= 10;
+                    workers -= 20;
                     nursery += 1;
                 }
                 break;
@@ -155,42 +150,37 @@ public class PlayerHive : MonoBehaviour
         switch (residential)
         {
             case 4:
-                if (controller.food >= 100 && controller.water >= 50)
+                if (workers >= 100)
                 {
-                    controller.food -= 100;
-                    controller.water -= 50;
+                    workers -= 100;
                     residential += 1;
                 }
                 break;
             case 3:
-                if (controller.food >= 80 && controller.water >= 40)
+                if (workers >= 80 )
                 {
-                    controller.food -= 80;
-                    controller.water -= 40;
+                    workers -= 80;
                     residential += 1;
                 }
                 break;
             case 2:
-                if (controller.food >= 60 && controller.water >= 30)
+                if (workers >= 60)
                 {
-                    controller.food -= 60;
-                    controller.water -= 30;
+                    workers -= 60;
                     residential += 1;
                 }
                 break;
             case 1:
-                if (controller.food >= 40 && controller.water >= 20)
+                if (workers >= 40)
                 {
-                    controller.food -= 40;
-                    controller.water -= 20;
+                    workers -= 40;
                     residential += 1;
                 }
                 break;
             default:
-                if (controller.food >= 20 && controller.water >= 10)
+                if (workers >= 20)
                 {
-                    controller.food -= 20;
-                    controller.water -= 10;
+                    workers -= 20;
                     residential += 1;
                 }
                 break;
@@ -202,42 +192,37 @@ public class PlayerHive : MonoBehaviour
         switch (barracks)
         {
             case 4:
-                if (controller.food >= 100 && controller.water >= 50)
+                if (workers >= 100)
                 {
-                    controller.food -= 100;
-                    controller.water -= 50;
+                    workers -= 100;
                     barracks += 1;
                 }
                 break;
             case 3:
-                if (controller.food >= 80 && controller.water >= 40)
+                if (workers >= 80 )
                 {
-                    controller.food -= 80;
-                    controller.water -= 40;
+                    workers -= 80;
                     barracks += 1;
                 }
                 break;
             case 2:
-                if (controller.food >= 60 && controller.water >= 30)
+                if (workers >= 60 )
                 {
-                    controller.food -= 60;
-                    controller.water -= 30;
+                    workers -= 60;
                     barracks += 1;
                 }
                 break;
             case 1:
-                if (controller.food >= 40 && controller.water >= 20)
+                if (controller.food >= 40)
                 {
-                    controller.food -= 40;
-                    controller.water -= 20;
+                    workers -= 40;
                     barracks += 1;
                 }
                 break;
             default:
-                if (controller.food >= 20 && controller.water >= 10)
+                if (controller.food >= 20 )
                 {
-                    controller.food -= 20;
-                    controller.water -= 10;
+                    workers -= 20;
                     barracks += 1;
                 }
                 break;
@@ -249,42 +234,37 @@ public class PlayerHive : MonoBehaviour
         switch (foodStore)
         {
             case 4:
-                if (controller.food >= 100 && controller.water >= 50)
+                if (workers >= 100)
                 {
-                    controller.food -= 100;
-                    controller.water -= 50;
+                    workers -= 100;
                     foodStore += 1;
                 }
                 break;
             case 3:
-                if (controller.food >= 80 && controller.water >= 40)
+                if (workers >= 80)
                 {
-                    controller.food -= 80;
-                    controller.water -= 40;
+                    workers -= 80;
                     foodStore += 1;
                 }
                 break;
             case 2:
-                if (controller.food >= 60 && controller.water >= 30)
+                if (workers >= 60 )
                 {
-                    controller.food -= 60;
-                    controller.water -= 30;
+                    workers -= 60;
                     foodStore += 1;
                 }
                 break;
             case 1:
-                if (controller.food >= 40 && controller.water >= 20)
+                if (workers >= 40 )
                 {
-                    controller.food -= 40;
-                    controller.water -= 20;
+                    workers -= 40;
                     foodStore += 1;
                 }
                 break;
             default:
-                if (controller.food >= 20 && controller.water >= 10)
+                if (workers >= 20 )
                 {
-                    controller.food -= 20;
-                    controller.water -= 10;
+                    workers -= 20;
                     foodStore += 1;
                 }
                 break;
@@ -296,42 +276,37 @@ public class PlayerHive : MonoBehaviour
         switch (waterStore)
         {
             case 4:
-                if (controller.food >= 100 && controller.water >= 50)
+                if (workers >= 100 )
                 {
-                    controller.food -= 100;
-                    controller.water -= 50;
+                    workers -= 100;
                     waterStore += 1;
                 }
                 break;
             case 3:
-                if (controller.food >= 80 && controller.water >= 40)
+                if (workers >= 80)
                 {
-                    controller.food -= 80;
-                    controller.water -= 40;
+                    workers -= 80;
                     waterStore += 1;
                 }
                 break;
             case 2:
-                if (controller.food >= 60 && controller.water >= 30)
+                if (workers >= 60)
                 {
-                    controller.food -= 60;
-                    controller.water -= 30;
+                    workers -= 60;
                     waterStore += 1;
                 }
                 break;
             case 1:
-                if (controller.food >= 40 && controller.water >= 20)
+                if (workers >= 40)
                 {
-                    controller.food -= 40;
-                    controller.water -= 20;
+                    workers -= 40;
                     waterStore += 1;
                 }
                 break;
             default:
-                if (controller.food >= 20 && controller.water >= 10)
+                if (workers >= 20)
                 {
-                    controller.food -= 20;
-                    controller.water -= 10;
+                    workers -= 20;
                     waterStore += 1;
                 }
                 break;
