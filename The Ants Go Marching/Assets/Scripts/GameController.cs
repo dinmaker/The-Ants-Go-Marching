@@ -15,14 +15,62 @@ public class GameController : MonoBehaviour
     public int maxWater;
     public int consumption;
     public int spawning;
+    public float cycleTime;
+
+    public GameObject playerHive;
+    public PlayerHive playerbuildings;
+
+    int foodWorkers;
+    int foodWorkers1;
+    int foodWorkers2;
+    int foodWorkers3;
+    int foodWorkers4;
+    int foodWorkers5;
+
+    int waterWorkers;
+    int waterWorkers1;
+    int waterWorkers2;
+    int waterWorkers3;
+    int waterWorkers4;
+    int waterWorkers5;
+
+    int hiveWorkers;
+    int hiveSoldiers;
+
+    int defenseWorkers;
+    int defenseWorkers1;
+    int defenseWorkers2;
+    int defenseWorkers3;
+    int defenseWorkers4;
+    int defenseWorkers5;
+
+    int foodSoldiers;
+    int foodSoldiers1;
+    int foodSoldiers2;
+    int foodSoldiers3;
+    int foodSoldiers4;
+    int foodSoldiers5;
+
+    int waterSoldiers;
+    int waterSoldiers1;
+    int waterSoldiers2;
+    int waterSoldiers3;
+    int waterSoldiers4;
+    int waterSoldiers5;
+
+    int defenseSoldiers;
+    int defenseSoldiers1;
+    int defenseSoldiers2;
+    int defenseSoldiers3;
+    int defenseSoldiers4;
+    int defenseSoldiers5;
+
 
     public FoodNode[] foodNodes;
     public WaterNode[] waterNodes;
     public DefenceNode[] defenceNodes;
 
 
-    public GameObject playerHive;
-    public PlayerHive playerbuildings;
 
     // Start is called before the first frame update
     void Start()
@@ -184,7 +232,20 @@ public class GameController : MonoBehaviour
                 maxWater = 100;
                 break;
         }
+        
 
+        hiveWorkers = playerbuildings.workers;
+        hiveSoldiers = playerbuildings.soldiers;
+
+        foodWorkers = foodWorkers1 + foodWorkers2 + foodWorkers3 + foodWorkers4 + foodWorkers5;
+        waterWorkers = waterWorkers1 + waterWorkers2 + waterWorkers3 + waterWorkers4 + waterWorkers5;
+        defenseWorkers = defenseWorkers1 + defenseWorkers2 + defenseWorkers3 + defenseWorkers4 + defenseWorkers5;
+        foodSoldiers = foodSoldiers1 + foodSoldiers2 + foodSoldiers3 + foodSoldiers4 + foodSoldiers5;
+        waterSoldiers = waterSoldiers1 + waterSoldiers2 + waterSoldiers3 + waterSoldiers4 + waterSoldiers5;
+        defenseSoldiers = defenseSoldiers1 + defenseSoldiers2 + defenseSoldiers3 + defenseSoldiers4 + defenseSoldiers5;
+
+        workers = foodWorkers + waterWorkers + defenseWorkers + hiveWorkers;
+        soldiers = foodSoldiers + waterSoldiers + defenseSoldiers + hiveSoldiers;
     }
 
 
@@ -192,7 +253,7 @@ public class GameController : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(10.0f);
+            yield return new WaitForSeconds(cycleTime);
             Debug.Log("Cycle Start");
             
             food -= consumption;
@@ -206,27 +267,7 @@ public class GameController : MonoBehaviour
             {
                 playerbuildings.soldiers += spawning;
             }
-
-            for (int i = 0; i < foodNodes.Length; i++)
-            {
-                workers += foodNodes[i].workerAnts;
-                soldiers += foodNodes[i].soldierAnts;
-            }
-
-            for (int i = 0; i < waterNodes.Length; i++)
-            {
-                workers += waterNodes[i].workerAnts;
-                soldiers += waterNodes[i].workerAnts;
-            }
-
-            for (int i = 0; i < defenceNodes.Length; i++)
-            {
-                workers += defenceNodes[i].workerAnts;
-                soldiers += defenceNodes[i].soldierAnts;
-            }
-
-            workers += playerbuildings.workers;
-            soldiers += playerbuildings.soldiers;
+           
 
             for (int i = 0; i< foodNodes.Length; i++)
             {
@@ -236,6 +277,48 @@ public class GameController : MonoBehaviour
             for (int i = 0; i < waterNodes.Length; i++)
             {
                 waterNodes[i].ProduceWater();
+            }
+
+            for (int i = 0; i < foodNodes.Length; i++)
+            {
+                foodWorkers1 = foodNodes[0].workerAnts;
+                foodSoldiers1 = foodNodes[0].soldierAnts;
+                foodWorkers2 = foodNodes[1].workerAnts;
+                foodSoldiers2 = foodNodes[1].soldierAnts;
+                foodWorkers3 = foodNodes[2].workerAnts;
+                foodSoldiers3 = foodNodes[2].soldierAnts;
+                foodWorkers4 = foodNodes[3].workerAnts;
+                foodSoldiers4 = foodNodes[3].soldierAnts;
+                foodWorkers5 = foodNodes[4].workerAnts;
+                foodSoldiers5 = foodNodes[4].soldierAnts;
+            }
+
+            for (int i = 0; i < waterNodes.Length; i++)
+            {
+                waterWorkers1 = waterNodes[0].workerAnts;
+                waterSoldiers1 = waterNodes[0].soldierAnts;
+                waterWorkers2 = waterNodes[1].workerAnts;
+                waterSoldiers2 = waterNodes[1].soldierAnts;
+                waterWorkers3 = waterNodes[2].workerAnts;
+                waterSoldiers3 = waterNodes[2].soldierAnts;
+                waterWorkers4 = waterNodes[3].workerAnts;
+                waterSoldiers4 = waterNodes[3].soldierAnts;
+                waterWorkers5 = waterNodes[4].workerAnts;
+                waterSoldiers5 = waterNodes[4].soldierAnts;
+            }
+
+            for (int i = 0; i < defenceNodes.Length; i++)
+            {
+                defenseWorkers1 = defenceNodes[0].workerAnts;
+                defenseSoldiers1 = defenceNodes[0].soldierAnts;
+                defenseWorkers2 = defenceNodes[1].workerAnts;
+                defenseSoldiers2 = defenceNodes[1].soldierAnts;
+                defenseWorkers3 = defenceNodes[2].workerAnts;
+                defenseSoldiers3 = defenceNodes[2].soldierAnts;
+                defenseWorkers4 = defenceNodes[3].workerAnts;
+                defenseSoldiers4 = defenceNodes[3].soldierAnts;
+                defenseWorkers5 = defenceNodes[4].workerAnts;
+                defenseSoldiers5 = defenceNodes[4].soldierAnts;
             }
         }
     }
