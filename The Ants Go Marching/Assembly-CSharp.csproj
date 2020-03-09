@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BaseBuildings.cs" />
     <Compile Include="Assets\Scripts\DefenceNode.cs" />
     <Compile Include="Assets\Scripts\FoodNode.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\PlayerHive.cs" />
     <Compile Include="Assets\Scripts\WaterNode.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Emma/Documents/GitHub/The-Ants-Go-Marching/The Ants Go Marching/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
