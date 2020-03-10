@@ -312,4 +312,24 @@ public class PlayerHive : MonoBehaviour
                 break;
         }
     }
+
+    public void SendWorkers()
+    {
+        controller.workersToMove = workers / 2;
+        workers -= controller.workersToMove;
+    }
+
+    public void SendSoldiers()
+    {
+        controller.soldiersToMove = soldiers / 2;
+        soldiers -= controller.soldiersToMove;
+    }
+
+    public void ReceiveAnts()
+    {
+        workers += controller.workersToMove;
+        controller.workersToMove = 0;
+        soldiers += controller.soldiersToMove;
+        controller.soldiersToMove = 0;
+    }
 }

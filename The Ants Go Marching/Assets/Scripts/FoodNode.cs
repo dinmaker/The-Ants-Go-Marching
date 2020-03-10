@@ -30,4 +30,24 @@ public class FoodNode : MonoBehaviour
     {
         controller.food += production;
     }
+
+    public void SendWorkers()
+    {
+        controller.workersToMove = workerAnts / 2;
+        workerAnts -= controller.workersToMove;
+    }
+
+    public void SendSoldiers()
+    {
+        controller.soldiersToMove = soldierAnts / 2;
+        soldierAnts -= controller.soldiersToMove;
+    }
+
+    public void ReceiveAnts()
+    {
+        workerAnts += controller.workersToMove;
+        controller.workersToMove = 0;
+        soldierAnts += controller.soldiersToMove;
+        controller.soldiersToMove = 0;
+    }
 }

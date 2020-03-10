@@ -16,6 +16,8 @@ public class GameController : MonoBehaviour
     public int consumption;
     public int spawning;
     public float cycleTime;
+    public int workersToMove;
+    public int soldiersToMove;
 
     public GameObject playerHive;
     public PlayerHive playerbuildings;
