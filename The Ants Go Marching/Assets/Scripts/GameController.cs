@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
 
     public GameObject playerHive;
     public PlayerHive playerbuildings;
+    public EnemySpawning spawner;
 
     int foodWorkers;
     int foodWorkers1;
@@ -260,6 +261,8 @@ public class GameController : MonoBehaviour
             
             food -= consumption;
             water -= consumption;
+
+            spawner.SpawnEnemyAnts();
 
             if (spawnAntType == false)
             {

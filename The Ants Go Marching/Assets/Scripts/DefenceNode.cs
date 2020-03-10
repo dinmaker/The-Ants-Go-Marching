@@ -9,6 +9,8 @@ public class DefenceNode : MonoBehaviour
 
     public int workerAnts;
     public int soldierAnts;
+    int initialEnemyCount;
+    public int enemyAnts;
     
     public int defence;
 
@@ -38,9 +40,33 @@ public class DefenceNode : MonoBehaviour
 
     public void ReceiveAnts()
     {
-        workerAnts += controller.workersToMove;
-        controller.workersToMove = 0;
-        soldierAnts += controller.soldiersToMove;
-        controller.soldiersToMove = 0;
+        initialEnemyCount = enemyAnts;
+        if (enemyAnts > 0)
+        {
+            enemyAnts -= (controller.soldiersToMove * 4) + controller.workersToMove;
+            if (enemyAnts <= 0)
+            {
+                workerAnts += controller.workersToMove - (initialEnemyCount / 2);
+                controller.workersToMove = 0;
+                soldierAnts += controller.soldiersToMove - (initialEnemyCount / 2);
+                controller.soldiersToMove = 0;
+                initialEnemyCount = 0;
+                enemyAnts = 0;
+            }
+            else
+            {
+                workerAnts = 0;
+                soldierAnts = 0;
+                controller.workersToMove = 0;
+                controller.soldiersToMove = 0;
+            }
+        }
+        else
+        {
+            workerAnts += controller.workersToMove;
+            controller.workersToMove = 0;
+            soldierAnts += controller.soldiersToMove;
+            controller.soldiersToMove = 0;
+        }
     }
 }
