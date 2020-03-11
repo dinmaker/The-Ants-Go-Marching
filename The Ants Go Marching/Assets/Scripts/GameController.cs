@@ -251,6 +251,11 @@ public class GameController : MonoBehaviour
         soldiers = foodSoldiers + waterSoldiers + defenseSoldiers + hiveSoldiers;
     }
 
+    public void ChangeAntSpawn()
+    {
+        spawnAntType = !spawnAntType;
+    }
+
 
     IEnumerator Cycle()
     {
