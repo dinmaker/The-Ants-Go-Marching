@@ -267,17 +267,27 @@ public class GameController : MonoBehaviour
             food -= consumption;
             water -= consumption;
 
+            if (food <= 0)
+            {
+                food = 0;
+            }
+
+            if (water <= 0)
+            {
+                water = 0;
+            }
+
             spawner.SpawnEnemyAnts();
 
             if (spawnAntType == false)
             {
                 playerbuildings.workers += spawning;
             }
+
             else if (spawnAntType == true)
             {
                 playerbuildings.soldiers += spawning;
             }
-           
 
             for (int i = 0; i< foodNodes.Length; i++)
             {
