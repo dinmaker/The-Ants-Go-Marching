@@ -1682,6 +1682,7 @@ MonoBehaviour:
   soldiersToMove: 0
   playerHive: {fileID: 0}
   playerbuildings: {fileID: 352923263}
+  spawner: {fileID: 0}
   foodNodes:
   - {fileID: 95958006}
   - {fileID: 1817136450}
@@ -1731,8 +1732,9 @@ MonoBehaviour:
   maxAnts: 0
   spawnPointA: {fileID: 1231286129}
   spawnPointB: {fileID: 0}
-  spawnPointC: {fileID: 635999438}
+  spawnPointC: {fileID: 0}
   spawnPointD: {fileID: 0}
+  spawnPointE: {fileID: 0}
 --- !u!1 &546498071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,7 +2209,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.03515625, y: 0.10546875, z: 0.02734375, w: -0.03125}
+  m_BoundingSphereOverride: {x: 2.525e-42, y: 1.02e-43, z: 44912.434, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2718,7 +2720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.87, y: -155}
+  m_AnchoredPosition: {x: -3.87, y: -194}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856164258
