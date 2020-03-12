@@ -30,11 +30,18 @@ public class PlayerHive : MonoBehaviour
     {
         controllerObject = GameObject.Find("GameController");
         controller = controllerObject.GetComponent<GameController>();
+        button.interactable = false;
     }
 
     void Update()
     {
         defense = workers + (soldiers * 4);
+
+        if (workers >= 0 || soldiers >= 0)
+        {
+            Debug.Log("DootDootDoot");
+            button.interactable = true;
+        }
 
         if (farms > 5)
         {
@@ -85,10 +92,6 @@ public class PlayerHive : MonoBehaviour
             }
         }
 
-        if (workers > 0 || soldiers > 0)
-        {
-            button.gameObject.SetActive(true);
-        }
     }
 
     public void AddFarm()

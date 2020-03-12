@@ -32,6 +32,11 @@ public class FoodNode : MonoBehaviour
         production = soldierAnts + (workerAnts * 4);
         defence = workerAnts + (soldierAnts * 4);
 
+        if (workerAnts > 0 || soldierAnts > 0)
+        {
+            button.gameObject.SetActive(true);
+        }
+
         if (workerAnts > 0)
         {
             if (AorB == true)
@@ -56,10 +61,6 @@ public class FoodNode : MonoBehaviour
             }
         }
 
-        if (workerAnts > 0 || soldierAnts > 0)
-        {
-            button.gameObject.SetActive(true);
-        }
     }
 
     public void ProduceFood()

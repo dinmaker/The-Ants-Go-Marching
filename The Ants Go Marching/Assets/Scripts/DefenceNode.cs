@@ -31,6 +31,12 @@ public class DefenceNode : MonoBehaviour
     {
         defence = workerAnts + (soldierAnts * 4);
 
+        if (workerAnts > 0 || soldierAnts > 0)
+        {
+            Debug.Log("DootDoot");
+            button.gameObject.SetActive(true);
+        }
+
         if (workerAnts > 0)
         {
             if (AorB == true)
@@ -55,10 +61,6 @@ public class DefenceNode : MonoBehaviour
             }
         }
 
-        if (workerAnts > 0 || soldierAnts > 0)
-        {
-            button.gameObject.SetActive(true);
-        }
     }
 
     public void SendWorkers()
