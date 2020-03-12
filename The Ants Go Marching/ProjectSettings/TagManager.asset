@@ -10,6 +10,21 @@ TagManager:
   - waterText
   - consumptionText
   - spawnText
+  - foodNodeTxt0
+  - foodNodeTxt1
+  - foodNodeTxt3
+  - foodNodeTxt4
+  - foodNodeTxt2
+  - waterNodeTxt0
+  - waterNodeTxt1
+  - waterNodeTxt2
+  - waterNodeTxt3
+  - waterNodeTxt14
+  - defNodeTxt0
+  - defNodeTxt1
+  - defNodeTxt2
+  - defNodeTxt3
+  - defNodeTxt4
   layers:
   - Default
   - TransparentFX
