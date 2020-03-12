@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHive : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class PlayerHive : MonoBehaviour
     public int soldiers;
 
     public int defense;
+
+    public Button button;
 
     public Path path;
     public bool AorB;
@@ -80,6 +83,11 @@ public class PlayerHive : MonoBehaviour
             {
                 path.SoldierNodeB = true;
             }
+        }
+
+        if (workers > 0 || soldiers > 0)
+        {
+            button.gameObject.SetActive(true);
         }
     }
 

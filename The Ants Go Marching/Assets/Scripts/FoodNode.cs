@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FoodNode : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class FoodNode : MonoBehaviour
     public int production;
     public int defence;
 
+    public Button button;
     public Path path;
     public bool AorB;
 
@@ -52,6 +54,11 @@ public class FoodNode : MonoBehaviour
             {
                 path.SoldierNodeB = true;
             }
+        }
+
+        if (workerAnts > 0 || soldierAnts > 0)
+        {
+            button.gameObject.SetActive(true);
         }
     }
 

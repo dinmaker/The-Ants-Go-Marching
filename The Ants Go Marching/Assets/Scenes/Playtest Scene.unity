@@ -367,6 +367,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerObject: {fileID: 0}
   controller: {fileID: 0}
+  button: {fileID: 1298692440}
+  path: {fileID: 0}
+  AorB: 0
   workerAnts: 0
   soldierAnts: 0
   enemyAnts: 0
@@ -1749,6 +1752,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 0}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!1 &80142439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,6 +1808,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 1256369245}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &80142442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4347,7 +4356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &261684633
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4367,7 +4376,7 @@ RectTransform:
   - {fileID: 734466172}
   - {fileID: 1701398326}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 3
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4719,6 +4728,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 731213108}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &264963927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4816,7 +4828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &292993700
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4834,7 +4846,7 @@ RectTransform:
   - {fileID: 900831554}
   - {fileID: 347869094}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 9
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6012,6 +6024,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 261684634}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &424345708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6321,7 +6336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &430814946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6342,7 +6357,7 @@ RectTransform:
   - {fileID: 360144326}
   - {fileID: 1011774885}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7357,6 +7372,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 0}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!1 &505502945
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,6 +7912,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 0}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!1 &534694375
 GameObject:
   m_ObjectHideFlags: 0
@@ -8656,6 +8677,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 0}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!1 &589704655
 GameObject:
   m_ObjectHideFlags: 0
@@ -9382,6 +9406,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 0}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!1 &648834938
 GameObject:
   m_ObjectHideFlags: 0
@@ -10222,7 +10249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &731213107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10241,7 +10268,7 @@ RectTransform:
   - {fileID: 1011964320}
   - {fileID: 2051352395}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11560,21 +11587,21 @@ RectTransform:
   m_Children:
   - {fileID: 864956977}
   - {fileID: 1101753738}
-  - {fileID: 731213107}
-  - {fileID: 261684633}
-  - {fileID: 1924298440}
-  - {fileID: 1954060621}
-  - {fileID: 1256369244}
-  - {fileID: 1096983851}
-  - {fileID: 1166888628}
+  - {fileID: 889665246}
   - {fileID: 292993700}
-  - {fileID: 1059550730}
   - {fileID: 1470632284}
+  - {fileID: 1954060621}
+  - {fileID: 731213107}
   - {fileID: 430814946}
+  - {fileID: 1924298440}
+  - {fileID: 1486595330}
+  - {fileID: 261684633}
+  - {fileID: 1256369244}
+  - {fileID: 1059550730}
   - {fileID: 1298692439}
   - {fileID: 909667411}
-  - {fileID: 1486595330}
-  - {fileID: 889665246}
+  - {fileID: 1096983851}
+  - {fileID: 1166888628}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11636,6 +11663,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 292993701}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &833656170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11963,7 +11993,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &889665246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11983,7 +12013,7 @@ RectTransform:
   - {fileID: 2091688906}
   - {fileID: 1410580008}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 16
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12619,7 +12649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &909667411
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13558,6 +13588,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 1954060622}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1005232399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13670,6 +13703,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 1486595331}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1006054176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15060,7 +15096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1059550730
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15081,7 +15117,7 @@ RectTransform:
   - {fileID: 1354041526}
   - {fileID: 1116578619}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15711,7 +15747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1096983851
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15730,7 +15766,7 @@ RectTransform:
   - {fileID: 1800826019}
   - {fileID: 433951483}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 7
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15970,7 +16006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1101753738
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16794,7 +16830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1166888628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16812,7 +16848,7 @@ RectTransform:
   - {fileID: 1943118640}
   - {fileID: 2033530425}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 8
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17122,7 +17158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1256369244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17142,7 +17178,7 @@ RectTransform:
   - {fileID: 648834942}
   - {fileID: 1042718660}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 6
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17478,6 +17514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerObject: {fileID: 0}
   controller: {fileID: 0}
+  button: {fileID: 909667412}
+  path: {fileID: 0}
+  AorB: 0
   workerAnts: 0
   soldierAnts: 0
   enemyAnts: 0
@@ -17638,7 +17677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1298692439
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18977,6 +19016,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 430814947}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1359798698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19475,6 +19517,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 1924298441}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1385961166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20473,6 +20518,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 1470632285}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1439967910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20648,7 +20696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1470632284
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20670,7 +20718,7 @@ RectTransform:
   - {fileID: 1749783616}
   - {fileID: 1917202492}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21048,6 +21096,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerObject: {fileID: 0}
   controller: {fileID: 0}
+  button: {fileID: 0}
+  path: {fileID: 0}
+  AorB: 0
   workerAnts: 0
   soldierAnts: 0
   enemyAnts: 0
@@ -21143,7 +21194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1486595330
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21162,7 +21213,7 @@ RectTransform:
   - {fileID: 1780321689}
   - {fileID: 457498091}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 15
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -23827,6 +23878,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerObject: {fileID: 0}
   controller: {fileID: 0}
+  button: {fileID: 1096983852}
+  path: {fileID: 0}
+  AorB: 0
   workerAnts: 0
   soldierAnts: 0
   enemyAnts: 0
@@ -24012,6 +24066,9 @@ MonoBehaviour:
   workers: 20
   soldiers: 20
   defense: 0
+  button: {fileID: 1101753739}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1680937712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26422,6 +26479,9 @@ MonoBehaviour:
   enemyAnts: 0
   production: 0
   defence: 0
+  button: {fileID: 889665247}
+  path: {fileID: 0}
+  AorB: 0
 --- !u!65 &1771015705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27601,6 +27661,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerObject: {fileID: 0}
   controller: {fileID: 0}
+  button: {fileID: 1059550731}
+  path: {fileID: 0}
+  AorB: 0
   workerAnts: 0
   soldierAnts: 0
   enemyAnts: 0
@@ -29011,7 +29074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1924298440
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29031,7 +29094,7 @@ RectTransform:
   - {fileID: 106331419}
   - {fileID: 894864006}
   m_Father: {fileID: 829379183}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -29746,7 +29809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1954060621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30871,6 +30934,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu stuff
       objectReference: {fileID: 0}
+    - target: {fileID: 8783016759935220610, guid: 43410e5563269ed4ca47ddc52401bb86,
+        type: 3}
+      propertyPath: m_TagString
+      value: spawnText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626799341956198377, guid: 43410e5563269ed4ca47ddc52401bb86,
+        type: 3}
+      propertyPath: m_TagString
+      value: waterText
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326291144228589338, guid: 43410e5563269ed4ca47ddc52401bb86,
+        type: 3}
+      propertyPath: m_TagString
+      value: soldierText
+      objectReference: {fileID: 0}
     - target: {fileID: 5064216432450053736, guid: 43410e5563269ed4ca47ddc52401bb86,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31191,16 +31269,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 7326291144228589338, guid: 43410e5563269ed4ca47ddc52401bb86,
-        type: 3}
-      propertyPath: m_TagString
-      value: soldierText
-      objectReference: {fileID: 0}
-    - target: {fileID: 8783016759935220610, guid: 43410e5563269ed4ca47ddc52401bb86,
-        type: 3}
-      propertyPath: m_TagString
-      value: spawnText
-      objectReference: {fileID: 0}
     - target: {fileID: 4775295032057331582, guid: 43410e5563269ed4ca47ddc52401bb86,
         type: 3}
       propertyPath: m_Name
@@ -31230,11 +31298,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: foodText
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626799341956198377, guid: 43410e5563269ed4ca47ddc52401bb86,
-        type: 3}
-      propertyPath: m_TagString
-      value: waterText
       objectReference: {fileID: 0}
     - target: {fileID: 3653081303335161856, guid: 43410e5563269ed4ca47ddc52401bb86,
         type: 3}
@@ -32411,6 +32474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerObject: {fileID: 0}
   controller: {fileID: 0}
+  button: {fileID: 1166888629}
+  path: {fileID: 0}
+  AorB: 0
   workerAnts: 0
   soldierAnts: 0
   enemyAnts: 0

@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DefenceNode : MonoBehaviour
 {
     public GameObject controllerObject;
     public GameController controller;
 
+    public Button button;
     public Path path;
 
     public bool AorB;
@@ -51,6 +53,11 @@ public class DefenceNode : MonoBehaviour
             {
                 path.SoldierNodeB = true;
             }
+        }
+
+        if (workerAnts > 0 || soldierAnts > 0)
+        {
+            button.gameObject.SetActive(true);
         }
     }
 
