@@ -3007,6 +3007,67 @@ RectTransform:
   m_AnchoredPosition: {x: -0.3, y: 38.6}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &167298404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167298405}
+  - component: {fileID: 167298406}
+  m_Layer: 0
+  m_Name: Food 2 to Defense
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167298405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167298404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &167298406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167298404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.25, y: -0.17, z: 0}
+  - {x: -3.23, y: -1.34, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &175715150
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,6 +3555,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195663667}
   m_CullTransparentMesh: 0
+--- !u!1 &197259305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197259306}
+  - component: {fileID: 197259307}
+  m_Layer: 0
+  m_Name: Defense to Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197259306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197259305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197259307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197259305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.64, y: 0.74, z: 0}
+  - {x: -3.23, y: -1.34, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &203272562
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,6 +5091,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292993699}
   m_CullTransparentMesh: 0
+--- !u!1 &303230824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303230825}
+  - component: {fileID: 303230826}
+  m_Layer: 0
+  m_Name: Water 2 to Defense 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303230825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303230824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303230826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303230824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 3.83, y: 3.43, z: 0}
+  - {x: 1.3, y: 2.79, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &316164346
 GameObject:
   m_ObjectHideFlags: 0
@@ -5202,6 +5385,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347869093}
   m_CullTransparentMesh: 0
+--- !u!1 &349496918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349496919}
+  - component: {fileID: 349496920}
+  m_Layer: 0
+  m_Name: Colony to Food 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349496919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349496918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &349496920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349496918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.18, y: -2.83, z: 0}
+  - {x: -0.2, y: -0.21, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &360144322
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,6 +7343,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 468006711}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &477175822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477175823}
+  - component: {fileID: 477175824}
+  m_Layer: 0
+  m_Name: Food 2 to Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &477175823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477175822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &477175824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477175822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.25, y: -0.17, z: 0}
+  - {x: -2.46, y: 0.66, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &485743806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7178,6 +7483,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485743806}
   m_CullTransparentMesh: 0
+--- !u!1 &486959876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486959877}
+  - component: {fileID: 486959878}
+  m_Layer: 0
+  m_Name: Defense to Enemy Colony
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486959877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486959876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &486959878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486959876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.43, y: 2.86, z: 0}
+  - {x: -0.14, y: 4.26, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &493548649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7508,6 +7874,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505502945}
   m_CullTransparentMesh: 0
+--- !u!1 &511926180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511926181}
+  - component: {fileID: 511926182}
+  m_Layer: 0
+  m_Name: Food to Water 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511926181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511926180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &511926182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511926180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 3.83, y: 3.43, z: 0}
+  - {x: 7.11, y: 4.25, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &517235233
 GameObject:
   m_ObjectHideFlags: 0
@@ -8125,6 +8552,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534694375}
   m_CullTransparentMesh: 0
+--- !u!1 &552336553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 552336554}
+  - component: {fileID: 552336555}
+  m_Layer: 0
+  m_Name: 'Water 3 to Water '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &552336554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552336553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &552336555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552336553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.67, y: 0.68, z: 0}
+  - {x: -7.18, y: -0.01, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &572672562
 GameObject:
   m_ObjectHideFlags: 0
@@ -10755,6 +11243,67 @@ RectTransform:
   m_AnchoredPosition: {x: 67.7, y: -35.7}
   m_SizeDelta: {x: 40, y: 17}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &741887822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741887823}
+  - component: {fileID: 741887824}
+  m_Layer: 0
+  m_Name: Food to Water 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &741887823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741887822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741887824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741887822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 4.29, y: 0.64, z: 0}
+  - {x: 3.87, y: 3.32, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &746603652
 GameObject:
   m_ObjectHideFlags: 0
@@ -10913,6 +11462,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756547621}
   m_CullTransparentMesh: 0
+--- !u!1 &757576872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757576873}
+  - component: {fileID: 757576874}
+  m_Layer: 0
+  m_Name: Food to Food 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &757576873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757576872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &757576874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757576872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 4.29, y: 0.64, z: 0}
+  - {x: 7.11, y: 4.25, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &770041285
 GameObject:
   m_ObjectHideFlags: 0
@@ -11229,6 +11839,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794362850}
   m_CullTransparentMesh: 0
+--- !u!1 &806895629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806895630}
+  - component: {fileID: 806895631}
+  m_Layer: 0
+  m_Name: Water 4 to Food 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806895630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806895629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &806895631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806895629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.25, y: -0.17, z: 0}
+  - {x: 2.19, y: -1.78, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &814632879
 GameObject:
   m_ObjectHideFlags: 0
@@ -12793,6 +13464,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909667410}
   m_CullTransparentMesh: 0
+--- !u!1 &935252932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935252933}
+  - component: {fileID: 935252934}
+  m_Layer: 0
+  m_Name: Colony to Water 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935252933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935252932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &935252934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935252932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.18, y: -2.83, z: 0}
+  - {x: 2.19, y: -1.78, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+--- !u!1 &938585855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938585856}
+  - component: {fileID: 938585857}
+  m_Layer: 0
+  m_Name: Defense to Food 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938585856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938585855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938585857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938585855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -6.64, y: -2.54, z: 0}
+  - {x: -3.23, y: -1.34, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &940305713
 GameObject:
   m_ObjectHideFlags: 0
@@ -14250,6 +15043,67 @@ RectTransform:
   m_AnchoredPosition: {x: 53.8, y: 31.9}
   m_SizeDelta: {x: 20, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1028097860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028097861}
+  - component: {fileID: 1028097862}
+  m_Layer: 0
+  m_Name: Defense 3 to Food
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1028097861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028097860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1028097862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028097860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 5.43, y: -2.46, z: 0}
+  - {x: 4.28, y: 0.58, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1032150751
 GameObject:
   m_ObjectHideFlags: 0
@@ -15542,6 +16396,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070343478}
   m_CullTransparentMesh: 0
+--- !u!1 &1071610231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071610232}
+  - component: {fileID: 1071610233}
+  m_Layer: 0
+  m_Name: Colony to Food 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071610232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071610231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1071610233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071610231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.18, y: -2.83, z: 0}
+  - {x: -6.61, y: -2.55, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1092195419
 GameObject:
   m_ObjectHideFlags: 0
@@ -16812,6 +17727,67 @@ RectTransform:
   m_AnchoredPosition: {x: -0.3, y: 38.6}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1161807392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161807393}
+  - component: {fileID: 1161807394}
+  m_Layer: 0
+  m_Name: Defense to Water 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161807393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161807392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1161807394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161807392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -7.17, y: -0.02, z: 0}
+  - {x: -3.23, y: -1.34, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1166888627
 GameObject:
   m_ObjectHideFlags: 0
@@ -17061,6 +18037,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1168192607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1249792005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249792006}
+  - component: {fileID: 1249792007}
+  m_Layer: 0
+  m_Name: Defense 2 to Defense 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1249792006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249792005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1249792007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249792005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.31, y: 2.69, z: 0}
+  - {x: 1.3, y: 2.79, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1251142110
 GameObject:
   m_ObjectHideFlags: 0
@@ -17821,6 +18858,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298692438}
   m_CullTransparentMesh: 0
+--- !u!1 &1303583089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303583090}
+  - component: {fileID: 1303583091}
+  m_Layer: 0
+  m_Name: Water to Water 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303583090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303583089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1303583091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303583089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.67, y: 0.68, z: 0}
+  - {x: -6.59, y: 2.84, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1320017582
 GameObject:
   m_ObjectHideFlags: 0
@@ -18231,6 +19329,67 @@ RectTransform:
   m_AnchoredPosition: {x: -56, y: 26}
   m_SizeDelta: {x: 20, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1328119875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1328119876}
+  - component: {fileID: 1328119877}
+  m_Layer: 0
+  m_Name: Food to Defense 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1328119876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328119875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1328119877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328119875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 4.29, y: 0.64, z: 0}
+  - {x: 1.36, y: 2.78, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1329803449
 GameObject:
   m_ObjectHideFlags: 0
@@ -18498,6 +19657,128 @@ RectTransform:
   m_AnchoredPosition: {x: -38.3, y: 38.599995}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1342599054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342599055}
+  - component: {fileID: 1342599056}
+  m_Layer: 0
+  m_Name: Water 4 to Food
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1342599055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342599054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1342599056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342599054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 4.29, y: 0.59, z: 0}
+  - {x: 2.19, y: -1.78, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+--- !u!1 &1351456591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351456592}
+  - component: {fileID: 1351456593}
+  m_Layer: 0
+  m_Name: Defense 2 to Enemy Colony
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351456592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351456591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351456593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351456591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.03, y: 4.23, z: 0}
+  - {x: 1.3, y: 2.79, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1354041522
 GameObject:
   m_ObjectHideFlags: 0
@@ -20258,6 +21539,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419881096}
   m_CullTransparentMesh: 0
+--- !u!1 &1428959254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428959255}
+  - component: {fileID: 1428959256}
+  m_Layer: 0
+  m_Name: Food 2 to Food
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1428959255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428959254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428959256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428959254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.25, y: -0.17, z: 0}
+  - {x: 4.31, y: 0.59, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1429278011
 GameObject:
   m_ObjectHideFlags: 0
@@ -20678,6 +22020,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37faf494bbd3a4948b739ea6a9cef6d2, type: 3}
+--- !u!1 &1469733841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469733842}
+  - component: {fileID: 1469733843}
+  m_Layer: 0
+  m_Name: Food 3 to Enemy Colony
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1469733842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469733841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469733843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469733841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -4.64, y: 4.44, z: 0}
+  - {x: -0.04, y: 4.26, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1470632283
 GameObject:
   m_ObjectHideFlags: 0
@@ -21176,6 +22579,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1480722262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480722263}
+  - component: {fileID: 1480722264}
+  m_Layer: 0
+  m_Name: Water 3 to Water 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1480722263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480722262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1480722264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480722262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -6.58, y: 2.81, z: 0}
+  - {x: -7.18, y: -0.01, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1486595329
 GameObject:
   m_ObjectHideFlags: 0
@@ -23660,6 +25124,128 @@ RectTransform:
   m_AnchoredPosition: {x: -0.3, y: 38.6}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1651457922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651457923}
+  - component: {fileID: 1651457924}
+  m_Layer: 0
+  m_Name: Food 4 to Water 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1651457923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651457922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1651457924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651457922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -6.64, y: -2.54, z: 0}
+  - {x: -7.18, y: -0.01, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+--- !u!1 &1661177219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661177220}
+  - component: {fileID: 1661177221}
+  m_Layer: 0
+  m_Name: Water 1 to Food 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661177220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661177219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661177221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661177219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -4.6, y: 4.49, z: 0}
+  - {x: -6.59, y: 2.84, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1666122429
 GameObject:
   m_ObjectHideFlags: 0
@@ -23944,6 +25530,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677118830}
   m_Mesh: {fileID: 0}
+--- !u!1 &1678308648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678308649}
+  - component: {fileID: 1678308650}
+  m_Layer: 0
+  m_Name: Defense 2 to Food 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678308649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678308648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1678308650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678308648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.21, y: -0.16, z: 0}
+  - {x: 1.3, y: 2.79, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1679296324
 GameObject:
   m_ObjectHideFlags: 0
@@ -26739,6 +28386,67 @@ RectTransform:
   m_AnchoredPosition: {x: 66, y: 16}
   m_SizeDelta: {x: 40, y: 17}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1777615447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1777615448}
+  - component: {fileID: 1777615449}
+  m_Layer: 0
+  m_Name: Defense to Food 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777615448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777615447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1777615449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777615447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.43, y: 2.86, z: 0}
+  - {x: -4.5, y: 4.5, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1780321685
 GameObject:
   m_ObjectHideFlags: 0
@@ -26904,6 +28612,67 @@ RectTransform:
   m_AnchoredPosition: {x: 59.5, y: 25.7}
   m_SizeDelta: {x: 20, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1788820219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1788820220}
+  - component: {fileID: 1788820221}
+  m_Layer: 0
+  m_Name: Water 1 to Defense 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1788820220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788820219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1788820221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788820219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.43, y: 2.86, z: 0}
+  - {x: -6.59, y: 2.84, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1792774846
 GameObject:
   m_ObjectHideFlags: 0
@@ -27403,6 +29172,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819288656}
   m_CullTransparentMesh: 0
+--- !u!1 &1825361332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1825361333}
+  - component: {fileID: 1825361334}
+  m_Layer: 0
+  m_Name: Colony to Defense
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1825361333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825361332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1825361334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825361332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -0.18, y: -2.83, z: 0}
+  - {x: -3.26, y: -1.42, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1831996995
 GameObject:
   m_ObjectHideFlags: 0
@@ -28117,6 +29947,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855160841}
   m_CullTransparentMesh: 0
+--- !u!1 &1858566490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1858566491}
+  m_Layer: 0
+  m_Name: Player Ant Paths
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1858566491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858566490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7961618, y: 0.32531402, z: -895.0625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1825361333}
+  - {fileID: 349496919}
+  - {fileID: 935252933}
+  - {fileID: 1342599055}
+  - {fileID: 1968016992}
+  - {fileID: 806895630}
+  - {fileID: 1028097861}
+  - {fileID: 2068628178}
+  - {fileID: 2018732696}
+  - {fileID: 741887823}
+  - {fileID: 1328119876}
+  - {fileID: 757576873}
+  - {fileID: 511926181}
+  - {fileID: 303230825}
+  - {fileID: 1351456592}
+  - {fileID: 1678308649}
+  - {fileID: 1249792006}
+  - {fileID: 1071610232}
+  - {fileID: 477175823}
+  - {fileID: 167298405}
+  - {fileID: 1428959255}
+  - {fileID: 197259306}
+  - {fileID: 1161807393}
+  - {fileID: 938585856}
+  - {fileID: 1651457923}
+  - {fileID: 1480722263}
+  - {fileID: 552336554}
+  - {fileID: 1861266331}
+  - {fileID: 1303583090}
+  - {fileID: 1661177220}
+  - {fileID: 1788820220}
+  - {fileID: 1777615448}
+  - {fileID: 486959877}
+  - {fileID: 1469733842}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859415772
 GameObject:
   m_ObjectHideFlags: 0
@@ -28183,6 +30077,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1861266330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861266331}
+  - component: {fileID: 1861266332}
+  m_Layer: 0
+  m_Name: Water to Defense 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1861266331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861266330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1861266332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861266330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: -2.67, y: 0.68, z: 0}
+  - {x: -2.43, y: 2.84, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1879099816
 GameObject:
   m_ObjectHideFlags: 0
@@ -30491,6 +32446,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960571635}
   m_CullTransparentMesh: 0
+--- !u!1 &1968016991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968016992}
+  - component: {fileID: 1968016993}
+  m_Layer: 0
+  m_Name: Water 4 to Defese 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1968016992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968016991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1968016993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968016991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 5.43, y: -2.46, z: 0}
+  - {x: 2.19, y: -1.78, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &1970243891
 GameObject:
   m_ObjectHideFlags: 0
@@ -31513,6 +33529,67 @@ RectTransform:
   m_AnchoredPosition: {x: -22.9, y: -47.8}
   m_SizeDelta: {x: 40, y: 21.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2018732695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2018732696}
+  - component: {fileID: 2018732697}
+  m_Layer: 0
+  m_Name: Defense 4 to Food
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2018732696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018732695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2018732697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018732695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 4.29, y: 0.64, z: 0}
+  - {x: 6.95, y: -0.06, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &2019297819
 GameObject:
   m_ObjectHideFlags: 0
@@ -32784,6 +34861,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051444907}
   m_CullTransparentMesh: 0
+--- !u!1 &2068628177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068628178}
+  - component: {fileID: 2068628179}
+  m_Layer: 0
+  m_Name: Defense 3 to Defense 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068628178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068628177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1858566491}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2068628179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068628177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6725c61942969e444a0313311dd47a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 5.43, y: -2.46, z: 0}
+  - {x: 6.95, y: -0.06, z: 0}
+  next: 0
+  looped: 1
+  WorkerNodeA: 0
+  WorkerNodeB: 0
+  SoldierNodeA: 0
+  SoldierNodeB: 0
+  workers:
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  - {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b, type: 3}
+  soldiers:
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
+  - {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51, type: 3}
 --- !u!1 &2086269733
 GameObject:
   m_ObjectHideFlags: 0
