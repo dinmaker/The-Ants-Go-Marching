@@ -11,8 +11,6 @@ public class DefenceNode : MonoBehaviour
     public Button button;
     public Path path;
 
-    public bool AorB;
-
     public int workerAnts;
     public int soldierAnts;
     int initialEnemyCount;
@@ -33,31 +31,30 @@ public class DefenceNode : MonoBehaviour
 
         if (workerAnts > 0 || soldierAnts > 0)
         {
-            Debug.Log("DootDoot");
             button.gameObject.SetActive(true);
         }
 
         if (workerAnts > 0)
         {
-            if (AorB == true)
+            if (path.WorkerNodeA == true)
             {
-                path.WorkerNodeA = true;
+                path.WorkerNodeB = true;
             }
             else
             {
-                path.WorkerNodeB = true;
+                path.WorkerNodeA = true;
             }
         }
 
         if (soldierAnts > 0)
         {
-            if (AorB == true)
+            if (path.WorkerNodeA == true)
             {
-                path.SoldierNodeA = true;
+                path.SoldierNodeB = true;
             }
             else
             {
-                path.SoldierNodeB = true;
+                path.SoldierNodeA = true;
             }
         }
 

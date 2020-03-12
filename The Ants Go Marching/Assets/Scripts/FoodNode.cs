@@ -18,7 +18,6 @@ public class FoodNode : MonoBehaviour
 
     public Button button;
     public Path path;
-    public bool AorB;
 
     void Start()
     {
@@ -39,25 +38,25 @@ public class FoodNode : MonoBehaviour
 
         if (workerAnts > 0)
         {
-            if (AorB == true)
+            if (path.WorkerNodeA == true)
             {
-                path.WorkerNodeA = true;
+                path.WorkerNodeB = true;
             }
             else
             {
-                path.WorkerNodeB = true;
+                path.WorkerNodeA = true;
             }
         }
 
         if (soldierAnts > 0)
         {
-            if (AorB == true)
+            if (path.WorkerNodeA == true)
             {
-                path.SoldierNodeA = true;
+                path.SoldierNodeB = true;
             }
             else
             {
-                path.SoldierNodeB = true;
+                path.SoldierNodeA = true;
             }
         }
 

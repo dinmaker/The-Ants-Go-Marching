@@ -22,7 +22,10 @@ public class EnemySpawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (spawnPointA.enemyAnts <= 0)
+        {
+            //YOU WIN
+        }
     }
 
     public void SpawnEnemyAnts()

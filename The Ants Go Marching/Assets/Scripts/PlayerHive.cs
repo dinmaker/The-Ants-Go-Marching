@@ -23,7 +23,6 @@ public class PlayerHive : MonoBehaviour
     public Button button;
 
     public Path path;
-    public bool AorB;
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +38,6 @@ public class PlayerHive : MonoBehaviour
 
         if (workers >= 0 || soldiers >= 0)
         {
-            Debug.Log("DootDootDoot");
             button.interactable = true;
         }
 
@@ -70,25 +68,25 @@ public class PlayerHive : MonoBehaviour
 
         if (workers > 0)
         {
-            if (AorB == true)
+            if (path.WorkerNodeA == true)
             {
-                path.WorkerNodeA = true;
+                path.WorkerNodeB = true;
             }
             else
             {
-                path.WorkerNodeB = true;
+                path.WorkerNodeA = true;
             }
         }
 
         if (soldiers > 0)
         {
-            if (AorB == true)
+            if (path.SoldierNodeA == true)
             {
-                path.SoldierNodeA = true;
+                path.SoldierNodeB = true;
             }
             else
             {
-                path.SoldierNodeB = true;
+                path.SoldierNodeA = true;
             }
         }
 
