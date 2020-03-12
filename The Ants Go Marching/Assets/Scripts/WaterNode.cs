@@ -15,6 +15,9 @@ public class WaterNode : MonoBehaviour
     public int production;
     public int defence;
 
+    public Path path;
+    public bool AorB;
+
     void Start()
     {
         controllerObject = GameObject.Find("GameController");
@@ -26,6 +29,30 @@ public class WaterNode : MonoBehaviour
     {
         production = soldierAnts + (workerAnts * 4);
         defence = workerAnts + (soldierAnts * 4);
+
+        if (workerAnts > 0)
+        {
+            if (AorB == true)
+            {
+                path.WorkerNodeA = true;
+            }
+            else
+            {
+                path.WorkerNodeB = true;
+            }
+        }
+
+        if (soldierAnts > 0)
+        {
+            if (AorB == true)
+            {
+                path.SoldierNodeA = true;
+            }
+            else
+            {
+                path.SoldierNodeB = true;
+            }
+        }
     }
 
     public void ProduceWater()

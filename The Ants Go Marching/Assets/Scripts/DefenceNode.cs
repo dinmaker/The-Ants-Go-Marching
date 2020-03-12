@@ -7,6 +7,10 @@ public class DefenceNode : MonoBehaviour
     public GameObject controllerObject;
     public GameController controller;
 
+    public Path path;
+
+    public bool AorB;
+
     public int workerAnts;
     public int soldierAnts;
     int initialEnemyCount;
@@ -24,6 +28,30 @@ public class DefenceNode : MonoBehaviour
     void Update()
     {
         defence = workerAnts + (soldierAnts * 4);
+
+        if (workerAnts > 0)
+        {
+            if (AorB == true)
+            {
+                path.WorkerNodeA = true;
+            }
+            else
+            {
+                path.WorkerNodeB = true;
+            }
+        }
+
+        if (soldierAnts > 0)
+        {
+            if (AorB == true)
+            {
+                path.SoldierNodeA = true;
+            }
+            else
+            {
+                path.SoldierNodeB = true;
+            }
+        }
     }
 
     public void SendWorkers()

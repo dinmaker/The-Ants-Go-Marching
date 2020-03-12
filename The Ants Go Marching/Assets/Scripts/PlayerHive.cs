@@ -19,6 +19,9 @@ public class PlayerHive : MonoBehaviour
 
     public int defense;
 
+    public Path path;
+    public bool AorB;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +56,30 @@ public class PlayerHive : MonoBehaviour
         if (waterStore > 5)
         {
             waterStore = 5;
+        }
+
+        if (workers > 0)
+        {
+            if (AorB == true)
+            {
+                path.WorkerNodeA = true;
+            }
+            else
+            {
+                path.WorkerNodeB = true;
+            }
+        }
+
+        if (soldiers > 0)
+        {
+            if (AorB == true)
+            {
+                path.SoldierNodeA = true;
+            }
+            else
+            {
+                path.SoldierNodeB = true;
+            }
         }
     }
 
