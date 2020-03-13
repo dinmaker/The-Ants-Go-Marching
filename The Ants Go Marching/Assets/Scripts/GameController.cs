@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -97,9 +98,9 @@ public class GameController : MonoBehaviour
         
         consumption = workers + soldiers;
 
-        if (workers == 0 && soldiers == 0)
+        if (workers <= 0 && soldiers <= 0)
         {
-
+            SceneManager.LoadScene(3);
         }
 
         switch (playerbuildings.farms)

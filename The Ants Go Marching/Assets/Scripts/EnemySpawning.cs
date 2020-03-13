@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawning : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class EnemySpawning : MonoBehaviour
     {
         if (spawnPointA.enemyAnts <= 0)
         {
-            //YOU WIN
+            SceneManager.LoadScene(2);
         }
     }
 
