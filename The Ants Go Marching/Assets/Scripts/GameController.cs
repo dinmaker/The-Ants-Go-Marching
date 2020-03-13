@@ -97,7 +97,10 @@ public class GameController : MonoBehaviour
         
         consumption = workers + soldiers;
 
-        
+        if (workers == 0 && soldiers == 0)
+        {
+
+        }
 
         switch (playerbuildings.farms)
         {
@@ -269,11 +272,15 @@ public class GameController : MonoBehaviour
 
             if (food <= 0)
             {
+                playerbuildings.workers -= food / 2;
+                playerbuildings.soldiers -= food / 2;
                 food = 0;
             }
 
             if (water <= 0)
             {
+                playerbuildings.workers -= water / 2;
+                playerbuildings.soldiers -= water / 2;
                 water = 0;
             }
 

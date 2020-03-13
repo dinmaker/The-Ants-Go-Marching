@@ -30411,11 +30411,11 @@ MonoBehaviour:
   playerbuildings: {fileID: 1680937711}
   spawner: {fileID: 1097638077}
   foodNodes:
-  - {fileID: 642248585}
-  - {fileID: 78756927}
-  - {fileID: 528489060}
-  - {fileID: 499679111}
-  - {fileID: 587514536}
+  - {fileID: 1771015704}
+  - {fileID: 833656169}
+  - {fileID: 1439967909}
+  - {fileID: 1005232398}
+  - {fileID: 264963926}
   waterNodes:
   - {fileID: 1359798697}
   - {fileID: 1385961165}
