@@ -36,7 +36,7 @@ public class GameController : MonoBehaviour
     public int waterWorkers2;
     public int waterWorkers3;
     public int waterWorkers4;
-    int waterWorkers5;
+    public int waterWorkers5;
 
     int hiveWorkers;
     int hiveSoldiers;
@@ -53,21 +53,21 @@ public class GameController : MonoBehaviour
     public int foodSoldiers2;
     public int foodSoldiers3;
     public int foodSoldiers4;
-    int foodSoldiers5;
+    public int foodSoldiers5;
 
     public int waterSoldiers;
     public int waterSoldiers1;
     public int waterSoldiers2;
     public int waterSoldiers3;
     public int waterSoldiers4;
-    int waterSoldiers5;
+    public int waterSoldiers5;
 
     public int defenseSoldiers;
     public int defenseSoldiers1;
     public int defenseSoldiers2;
     public int defenseSoldiers3;
     public int defenseSoldiers4;
-    int defenseSoldiers5;
+    public int defenseSoldiers5;
 
 
     public FoodNode[] foodNodes;
