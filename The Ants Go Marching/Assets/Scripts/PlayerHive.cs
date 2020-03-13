@@ -17,12 +17,14 @@ public class PlayerHive : MonoBehaviour
 
     public int workers;
     public int soldiers;
+    bool workersActive;
+    bool SoldiersActive;
 
     public int defense;
 
     public Button button;
 
-    public Path path;
+    public Path[] paths;
 
     // Start is called before the first frame update
     void Start()
@@ -66,28 +68,38 @@ public class PlayerHive : MonoBehaviour
             waterStore = 5;
         }
 
-        if (workers > 0)
+        if (workers > 0 && !workersActive)
         {
-            if (path.WorkerNodeA == true)
+            for (int i = 0; i < paths.Length; i++)
             {
-                path.WorkerNodeB = true;
+                if (paths[i].WorkerNodeA == true)
+                {
+                    paths[i].WorkerNodeB = true;
+                }
+                else
+                {
+                    paths[i].WorkerNodeA = true;
+                }
             }
-            else
-            {
-                path.WorkerNodeA = true;
-            }
+
+            workersActive = true;
         }
 
-        if (soldiers > 0)
+        if (soldiers > 0 && !SoldiersActive)
         {
-            if (path.SoldierNodeA == true)
+            for (int i = 0; i < paths.Length; i++)
             {
-                path.SoldierNodeB = true;
+                if (paths[i].SoldierNodeA == true)
+                {
+                    paths[i].SoldierNodeB = true;
+                }
+                else
+                {
+                    paths[i].SoldierNodeA = true;
+                }
             }
-            else
-            {
-                path.SoldierNodeA = true;
-            }
+
+            SoldiersActive = true;
         }
 
     }

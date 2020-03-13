@@ -17,7 +17,9 @@ public class WaterNode : MonoBehaviour
     public int defence;
 
     public Button button;
-    public Path path;
+    public Path[] paths;
+    bool workersActive;
+    bool soldiersActive;
 
     void Start()
     {
@@ -36,28 +38,38 @@ public class WaterNode : MonoBehaviour
             button.gameObject.SetActive(true);
         }
 
-        if (workerAnts > 0)
+        if (workerAnts > 0 && !workersActive)
         {
-            if (path.WorkerNodeA == true)
+            for (int i = 0; i < paths.Length; i++)
             {
-                path.WorkerNodeB = true;
+                if (paths[i].WorkerNodeA == true)
+                {
+                    paths[i].WorkerNodeB = true;
+                }
+                else
+                {
+                    paths[i].WorkerNodeA = true;
+                }
             }
-            else
-            {
-                path.WorkerNodeA = true;
-            }
+
+            workersActive = true;
         }
 
-        if (soldierAnts > 0)
+        if (soldierAnts > 0 && !soldiersActive)
         {
-            if (path.WorkerNodeA == true)
+            for (int i = 0; i < paths.Length; i++)
             {
-                path.SoldierNodeB = true;
+                if (paths[i].SoldierNodeA == true)
+                {
+                    paths[i].SoldierNodeB = true;
+                }
+                else
+                {
+                    paths[i].SoldierNodeA = true;
+                }
             }
-            else
-            {
-                path.SoldierNodeA = true;
-            }
+
+            soldiersActive = true;
         }
 
     }
