@@ -217,6 +217,11 @@ public class GameController : MonoBehaviour
                 break;
         }
 
+        if (food >= maxFood)
+        {
+            food = maxFood;
+        }
+
         switch (playerbuildings.waterStore)
         {
             case 5:
@@ -238,7 +243,12 @@ public class GameController : MonoBehaviour
                 maxWater = 100;
                 break;
         }
-        
+
+        if (water >= maxWater)
+        {
+            water = maxWater;
+        }
+
 
         hiveWorkers = playerbuildings.workers;
         hiveSoldiers = playerbuildings.soldiers;
