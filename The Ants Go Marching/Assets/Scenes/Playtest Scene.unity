@@ -3186,6 +3186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 98945920}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!1 &99818434
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,6 +4072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 115050873}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &115050876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8424,6 +8426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 267773696}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!1001 &268967094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9586,6 +9589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 321181228}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &321181231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13493,6 +13497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 466919965}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &466919968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13617,6 +13622,41 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 8439210526270567849, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 3927393847485147172, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 1793074103996152040, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 8646721875898544873, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 4733993854247174579, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 2610679901428371979, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 7640832409195870003, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ebd3343aaa357e41a507bf9eab3d1de, type: 3}
 --- !u!4 &468006712 stripped
@@ -13793,6 +13833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 471115980}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &471115983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14447,6 +14488,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 8664487276543191763, guid: ee2f9244be0c4f44e96b44c6f171b93f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee2f9244be0c4f44e96b44c6f171b93f, type: 3}
 --- !u!4 &499679109 stripped
@@ -24372,6 +24418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 851397379}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &851397382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24594,6 +24641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 860145416}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &860145419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26614,6 +26662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 928683152}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &928683155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27945,6 +27994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 974497628}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &974497631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31205,6 +31255,46 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 3146318796901174374, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 3446760733424978066, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 3009440591192508393, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 4032987856566238891, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 8646721875898544873, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 4733993854247174579, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 7640832409195870003, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
+    - target: {fileID: 6682656112009176243, guid: 4ebd3343aaa357e41a507bf9eab3d1de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ebd3343aaa357e41a507bf9eab3d1de, type: 3}
 --- !u!4 &1063867565 stripped
@@ -32454,13 +32544,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnAntType: 0
-  workers: 0
+  workers: 30
   maxWorkers: 100
-  soldiers: 0
+  soldiers: 10
   maxSoldiers: 100
-  food: 0
+  food: 80
   maxFood: 100
-  water: 0
+  water: 80
   maxWater: 100
   consumption: 0
   spawning: 1
@@ -38697,6 +38787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 1377091137}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &1377091140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42606,6 +42697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 1476988017}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &1476988020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42780,7 +42872,7 @@ MonoBehaviour:
   paths: []
   workerAnts: 0
   soldierAnts: 0
-  enemyAnts: 0
+  enemyAnts: 30
   defence: 0
 --- !u!65 &1478391713
 BoxCollider:
@@ -44576,6 +44668,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 4283840654739790534, guid: cbdeffbfe9e9fec43a18677efb416a3c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056b8df450135a048b98db0b24ca7b8c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbdeffbfe9e9fec43a18677efb416a3c, type: 3}
 --- !u!4 &1528303848 stripped
@@ -45312,6 +45409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 1558759195}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &1558759198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51243,6 +51341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 1756219141}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &1756219144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53751,6 +53850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 1822580982}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &1822580985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57800,6 +57900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 1946779449}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &1946779452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60508,6 +60609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 2001251042}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!1 &2001391608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1723187861631064918, guid: 6b498bef37d8ede4185e403f769c5a51,
@@ -61903,6 +62005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 2038847485}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!1 &2043599589 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5114130694902521714, guid: 7c9cf494778c8f544ad1c381991ab14b,
@@ -63984,6 +64087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextBox: {fileID: 2122163529}
   gcValues: {fileID: 1097638078}
+  enemyValues: {fileID: 0}
 --- !u!114 &2122163532
 MonoBehaviour:
   m_ObjectHideFlags: 0

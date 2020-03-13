@@ -5,8 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
+    public GameObject Instructions;
    public  void StartGame()
     {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            Instructions.gameObject.SetActive(false);
+        }
     }
 }
