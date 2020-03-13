@@ -23,49 +23,49 @@ public class GameController : MonoBehaviour
     public PlayerHive playerbuildings;
     public EnemySpawning spawner;
 
-    int foodWorkers;
-    int foodWorkers1;
-    int foodWorkers2;
-    int foodWorkers3;
-    int foodWorkers4;
-    int foodWorkers5;
+    public int foodWorkers;
+    public int foodWorkers1;
+    public int foodWorkers2;
+    public int foodWorkers3;
+    public int foodWorkers4;
+    public int foodWorkers5;
 
-    int waterWorkers;
-    int waterWorkers1;
-    int waterWorkers2;
-    int waterWorkers3;
-    int waterWorkers4;
+    public int waterWorkers;
+    public int waterWorkers1;
+    public int waterWorkers2;
+    public int waterWorkers3;
+    public int waterWorkers4;
     int waterWorkers5;
 
     int hiveWorkers;
     int hiveSoldiers;
 
-    int defenseWorkers;
-    int defenseWorkers1;
-    int defenseWorkers2;
-    int defenseWorkers3;
-    int defenseWorkers4;
-    int defenseWorkers5;
+    public int defenseWorkers;
+    public int defenseWorkers1;
+    public int defenseWorkers2;
+    public int defenseWorkers3;
+    public int defenseWorkers4;
+    public int defenseWorkers5;
 
-    int foodSoldiers;
-    int foodSoldiers1;
-    int foodSoldiers2;
-    int foodSoldiers3;
-    int foodSoldiers4;
+    public int foodSoldiers;
+    public int foodSoldiers1;
+    public int foodSoldiers2;
+    public int foodSoldiers3;
+    public int foodSoldiers4;
     int foodSoldiers5;
 
-    int waterSoldiers;
-    int waterSoldiers1;
-    int waterSoldiers2;
-    int waterSoldiers3;
-    int waterSoldiers4;
+    public int waterSoldiers;
+    public int waterSoldiers1;
+    public int waterSoldiers2;
+    public int waterSoldiers3;
+    public int waterSoldiers4;
     int waterSoldiers5;
 
-    int defenseSoldiers;
-    int defenseSoldiers1;
-    int defenseSoldiers2;
-    int defenseSoldiers3;
-    int defenseSoldiers4;
+    public int defenseSoldiers;
+    public int defenseSoldiers1;
+    public int defenseSoldiers2;
+    public int defenseSoldiers3;
+    public int defenseSoldiers4;
     int defenseSoldiers5;
 
 
